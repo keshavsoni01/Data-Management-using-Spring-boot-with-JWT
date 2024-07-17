@@ -41,3 +41,7 @@ IDE (IntelliJ IDEA)
 Postman (for API testing)
 
 Database (MySQL)
+
+## Contact
+
+For any inquiries or issues, please contact keshavsoni1622@gmail.com
