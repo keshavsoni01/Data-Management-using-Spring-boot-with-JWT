@@ -1,0 +1,39 @@
+--INSERT INTO role (
+--    role_name,
+--    role_description
+--) VALUES (
+--    'ADMIN',  -- Example role name
+--    'Administrator with full access'  -- Description for the role
+--);
+---- Assuming role_id 1 is the 'Admin' role created earlier
+--INSERT INTO user (
+--    profile_pic,
+--    first_name,
+--    last_name,
+--    username,
+--    email,
+--    contact_no,
+--    password,
+--    reset_password,
+--    terms_and_conditions,
+--    verification_code,
+--    is_deleted,
+--    acc_created_at,
+--    last_updated_by,
+--    roles_role_id  -- The foreign key referencing the `role` table
+--) VALUES (
+--    NULL,  -- `profile_pic`
+--    'keshav',  -- `first_name`
+--    'soni',   -- `last_name`
+--    'keshavsoni01',  -- `username`
+--    'keshav@darkinc.com',  -- `email`
+--    '91 8269787561',  -- `contact_no`
+--    'uhhuh@72122',  -- `password`
+--    '',  -- `reset_password`
+--    TRUE,  -- `terms_and_conditions`
+--    '0110',  -- `verification_code`
+--    FALSE,  -- `is_deleted`
+--    CURRENT_TIMESTAMP,  -- `acc_created_at`
+--    CURRENT_TIMESTAMP,  -- `last_updated_by`
+--    1  -- `role_role_id` references `role_id` 1
+--);

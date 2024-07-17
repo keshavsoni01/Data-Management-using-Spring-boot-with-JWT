@@ -1,0 +1,26 @@
+package com.DataManagement.dto.graphDTO;
+
+import com.DataManagement.service.Colors;
+import jakarta.persistence.Column;
+import lombok.*;
+
+import java.util.Date;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@ToString
+public class HistogramGraphDTO {
+    private int id;
+    private String title;
+    private int xAxis;
+    private int yAxis;
+    private String xAxisLabel;
+    private String yAxisLabel;
+    private int xAxisInterval;
+    private int yAxisInterval;
+    private Colors color ;
+    private Date lastUpdated;
+}
